@@ -3,11 +3,11 @@ const projectsElement = document.getElementById("projects-list")
 const projects = [
   {
     title: "Weather API App",
-    img: "../assets/weather-app.png",
+    img: "./assets/weather-app.png",
     link: "https://tomaslobatodev.github.io/weather-app/",
   },{
     title: "Etch A Sketch",
-    img: "../assets/etch-a-sketch.png",
+    img: "./assets/etch-a-sketch.png",
     link: "https://tomaslobatodev.github.io/Etch-a-Sketch/"
   }
 ]
