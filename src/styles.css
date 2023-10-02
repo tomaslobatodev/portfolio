@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  color: rgb(223, 223, 223);
+}
+
+::selection {
+  color: rgb(24, 24, 24);
+  background-color: 
+  rgb(223, 223, 223);
+}
+
+#main {
+  background-color: rgb(18, 18, 18);
+  width: 100%;
+  height: 100vh;
+  padding: 24px 48px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-style: italic;
+  font-family: "Roboto";
+  font-size: 68px;
+}
+
+h1 .a {
+  padding-left: 50px;
+}
+
+h2 {
+  font-weight: lighter
+}
+
+nav {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+  color: 
+  rgb(223, 223, 223);
+}
+
+.link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+  rgb(223, 223, 223);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.other-links {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-top: 86px;
+}
+
+.other-links a {
+  background-color: rgb(24, 24, 24);
+  border-radius: 10px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  font-family: "Roboto";
+  padding: 10px 14px;
+  font-size: 20px;
+  transition: .2s;
+}
+
+.other-links a:hover {
+  background-color: 
+  rgb(223, 223, 223);
+  color: rgb(24, 24, 24);
+  padding: 12px 16px;
+  transition: .2s;
+}
+
+#down {
+  background-color: rgb(24, 24, 24);
+  border-radius: 50%;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+}
+
+#down:hover {
+  padding: 16px 18px;
+  transition: .2s;
+}
+
+
+#projects {
+  background-color: 
+  rgb(223, 223, 223);
+  color: rgb(24, 24, 24);
+  width: 100%;
+  min-height: 100vh;
+  padding: 24px 48px;
+  box-sizing: border-box;
+}
+
+#projects h1 {
+  color: rgb(24, 24, 24);
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#projects h1::selection {
+  background-color: rgb(24, 24, 24);
+  color: rgb(223, 223, 223);
+}
+
+#projects-list {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 32%;
+  display: flex;
+  background-color: rgb(24, 24, 24);
+  flex-direction: column;
+  border: 1px solid rgb(24, 24, 24);
+  color: 
+  rgb(223, 223, 223);
+}
+
+.project img {
+  width: 100%;
+}
+
+.project div {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#contact {
+  background-color: rgb(24, 24, 24);
+  color: rgb(223, 223, 223);
+  width: 100%;
+  height: 50vh;
+  padding: 24px 48px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact h1 {
+  font-style: normal;
+}
+
+#contact h2 {
+  font-size: 50px;
+}
+
+#contact a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
