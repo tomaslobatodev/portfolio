@@ -226,3 +226,48 @@ nav {
   justify-content: space-between;
   width: 600px;
 }
+
+@media screen and (max-width: 1000px) { 
+  #projects-list {
+    flex-direction: column;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  #main a {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  nav {
+    display: none;
+  }
+
+  #main {
+    padding-top: 50px;
+  }
+
+  #main h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #main h1 .a {
+    padding: 0;
+  }
+
+  #contact h1 {
+    font-size: 50px;
+  }
+
+  #contact h2 {
+    font-size: 36px;
+  }
+
+  #contact a {
+    width: 60%;
+  }
+}
