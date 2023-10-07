@@ -236,9 +236,6 @@ nav {
     width: 100%;
   }
 
-  #main a {
-    font-size: 30px;
-  }
 }
 
 @media screen and (max-width: 670px) {
@@ -250,24 +247,44 @@ nav {
     padding-top: 50px;
   }
 
+  .other-links {
+    padding: 0;
+  }
+
+  .other-links a {
+    font-size: 20px;
+  }
+
   #main h1 {
     width: 100%;
     text-align: center;
+    font-size: 36px;
+  }
+
+  #projects {
+    padding: 16px;
   }
 
   #main h1 .a {
     padding: 0;
   }
 
+  #contact {
+    height: 36vh;
+    padding: 16px;
+  }
+
   #contact h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
-
-  #contact h2 {
-    font-size: 36px;
-  }
-
+  
   #contact a {
     width: 60%;
   }
+
+  #contact h2 {
+    font-size: 20px;
+  }
+
+
 }
