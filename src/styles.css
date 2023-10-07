@@ -239,12 +239,17 @@ nav {
 }
 
 @media screen and (max-width: 670px) {
+  #down {
+    display: none;
+  }
+
   nav {
     display: none;
   }
 
   #main {
-    padding-top: 50px;
+    padding: 75px 12px;
+    box-sizing: border-box;
   }
 
   .other-links {
@@ -258,7 +263,7 @@ nav {
   #main h1 {
     width: 100%;
     text-align: center;
-    font-size: 36px;
+    font-size: 46px;
   }
 
   #projects {
