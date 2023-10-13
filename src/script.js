@@ -2,14 +2,20 @@ const projectsElement = document.getElementById("projects-list")
 
 const projects = [
   {
+    title: "CV App",
+    img: "./assets/cv-app.png",
+    link: "https://cv-app-a62.pages.dev/",
+  },
+  {
     title: "Weather API App",
     img: "./assets/weather-app.png",
     link: "https://tomaslobatodev.github.io/weather-app/",
-  },{
+  },
+  {
     title: "Etch A Sketch",
     img: "./assets/etch-a-sketch.png",
-    link: "https://tomaslobatodev.github.io/Etch-a-Sketch/"
-  }
+    link: "https://tomaslobatodev.github.io/Etch-a-Sketch/",
+  },
 ]
 
 projects.forEach((project) => {
